@@ -1,0 +1,48 @@
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+/*  */
+
+.container{
+    width: 60vw;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 1rem;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+    font-family: 'inter', sans-serif;
+    text-align: center;
+   
+}
+
+#slack_info{
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+#slack_info > img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
